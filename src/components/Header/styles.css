@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+    background-color: aliceblue;
+}
+header img {
+    border-radius: 999px;
+    margin-top: 16px;
+}
+header h1 {
+    margin-bottom: 16px;
+}

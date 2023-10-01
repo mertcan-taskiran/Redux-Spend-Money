@@ -1,0 +1,10 @@
+.money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: xx-large;
+    font-weight: 800;
+    letter-spacing: 5px;
+    background: linear-gradient(rgb(155, 182, 119),rgb(95, 221, 137));
+}

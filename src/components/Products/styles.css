@@ -1,0 +1,93 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    border-radius: 10px;
+    border-top-right-radius: 35px;
+    box-shadow: 8px 5px 5px rgb(122, 120, 120);
+    filter: grayscale(0.3);
+}
+
+img {
+    width: 100px;
+
+}
+
+.image img {
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.image img {
+    filter: brightness(1.1);
+    transition: 300ms all ease-in-out;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 6px 0;
+}
+
+.price {
+    font-size: 24px;
+    color: rgb(120, 233, 120);
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin: 6px 0;
+}
+
+.price:before {
+    content: "$";
+}
+
+.cardControl {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.cardControl button {
+    padding: 8px 16px;
+    font-size: 24px;
+    font-weight: 550;
+    border: none;
+    cursor: pointer;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cardControl input {
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.green {
+    background: linear-gradient(rgb(155, 182, 119),rgb(95, 221, 137));
+    color: white;
+}
+
+.red {
+    background: linear-gradient(rgb(182, 65, 75),rgb(247, 43, 43));
+
+    color: white;
+    
+}
